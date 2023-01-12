@@ -1,13 +1,11 @@
-#!/usr/bin/env python
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+setup(
     name="pre-trained-palmtree",
     version="0.1",
-    description="PreTrained Palmtree",
-    packages=setuptools.find_packages(),
+    description="pre-trained-palmtree",
+    packages=find_packages(),
     install_requires=[
-        "torch>=10.1",
-        "cuda>=10.1",
+        "torch>=1.10+cu>=110",
     ],
 )

@@ -1,2 +1,1 @@
-torch
-cuda
+torch>=1.10+cu>=110 --find-links https://download.pytorch.org/whl/torch_stable.html
