@@ -6,6 +6,7 @@ setup(
     description="pre-trained-palmtree",
     packages=find_packages(),
     install_requires=[
-        "torch>=1.10+cu>=110",
+        "torch>=1.10",
     ],
+    dependency_links=["https://download.pytorch.org/whl/110"],
 )
