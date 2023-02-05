@@ -8,5 +8,5 @@ setup(
     install_requires=[
         "torch>=1.10",
     ],
-    dependency_links=["https://download.pytorch.org/whl/110"],
+    dependency_links=["https://download.pytorch.org/whl/117"],
 )
